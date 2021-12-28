@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'webapp-eastus1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_127D960860914356BF8E5C6DC8D208B3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF400CC5E0A446AAA3FF8213A108522F }}
           package: .
